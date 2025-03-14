@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/little_margin"
+        android:background="@color/slk2_red"
+        android:gravity="bottom"
+        android:padding="16dp"
+        android:text="@string/android_table_layout_example"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <TextView
+        android:id="@+id/row1col1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/little_margin"
+        android:layout_marginBottom="@dimen/little_margin"
+        android:background="@color/slk2_orange"
+        android:gravity="center"
+        android:text="@string/row_1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <TextView
+        android:id="@+id/row2col1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/little_margin"
+        android:layout_marginEnd="@dimen/little_margin"
+        android:layout_marginBottom="@dimen/little_margin"
+        android:background="@color/slk2_orange"
+        android:gravity="center"
+        android:text="@string/row_2_ncolumn_1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@id/row2col2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <TextView
+        android:id="@+id/row2col2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/little_margin"
+        android:layout_marginTop="@dimen/little_margin"
+        android:layout_marginEnd="@dimen/little_margin"
+        android:layout_marginBottom="@dimen/little_margin"
+        android:background="@color/slk2_orange"
+        android:gravity="center"
+        android:text="@string/row_2_ncolumn_2"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@id/row2col3"
+        app:layout_constraintStart_toEndOf="@id/row2col1"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <TextView
+        android:id="@+id/row2col3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/slk2_orange"
+        android:gravity="center"
+        android:text="@string/row_2_ncolumn_3"
+        android:layout_marginStart="@dimen/little_margin"
+        android:layout_marginTop="@dimen/little_margin"
+        android:layout_marginBottom="@dimen/little_margin"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/row2col2"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <TextView
+        android:id="@+id/row3col1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/slk2_orange"
+        android:gravity="center"
+        android:text="@string/row_3_ncolumn_1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/little_margin"
+        android:layout_marginEnd="@dimen/little_margin"
+        android:layout_marginBottom="@dimen/little_margin"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@id/row3col2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+    <TextView
+        android:id="@+id/row3col2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/slk2_orange"
+        android:gravity="center"
+        android:text="@string/row_3_ncolumn_2"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/little_margin"
+        android:layout_marginBottom="@dimen/little_margin"
+        android:layout_marginStart="@dimen/little_margin"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/row3col1"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+    <TextView
+        android:id="@+id/row4col1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/slk2_orange"
+        android:gravity="center"
+        android:text="@string/row_4_ncolumn_1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/little_margin"
+        android:layout_marginBottom="@dimen/little_margin"
+        android:layout_marginEnd="@dimen/little_margin"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+    <TextView
+        android:id="@+id/row4col2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/little_margin"
+        android:layout_marginBottom="@dimen/little_margin"
+        android:layout_marginStart="@dimen/little_margin"
+        android:background="@color/slk2_orange"
+        android:gravity="center"
+        android:text="@string/row_4_ncolumn_2"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+    <TextView
+        android:id="@+id/row5col1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/little_margin"
+        android:layout_marginBottom="@dimen/little_margin"
+        android:background="@color/slk2_orange"
+        android:gravity="center"
+        android:text="@string/row_5_ncolumn_1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline6"
+        android:layout_marginTop="@dimen/little_margin"
+        android:text="@string/viralandroid_com"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/viralandroidcolor"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

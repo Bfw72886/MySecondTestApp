@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundpurple">#6100EC</color>
+    <color name="circle_inactive">#9E9C9C</color>
+    <color name="circle_active">#FD0000</color>
+    <color name="buttoncolor">#FD8700</color>
+    <color name="slk2_red">#D00B0D</color>
+    <color name="slk2_orange">#EB8304</color>
+    <color name="viralandroidcolor">#656565</color>
+    <color name="deeporange">#E49E35</color>
+    <color name="lightorange">#E8CEA8</color>
+    <color name="tophalfblue">#3F8DC7</color>
+    <color name="middlearrowgray">#656565</color>
+    <color name="linegray">#E2E2E2</color>
+    <color name="facebookblue">#6591E9</color>
+    <color name="twitterblue">#00ABEC</color>
+</resources>

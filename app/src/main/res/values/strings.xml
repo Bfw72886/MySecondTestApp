@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SLK-Aufgabe</string>
+    <string name="smiley">Smiley</string>
+    <string name="hier_sehen_sie_hinweise_zu_dieser_app">Hier sehen Sie Hinweise zu dieser App</string>
+    <string name="mytravelinfo">MyTravelInfo</string>
+    <string name="account_anlegen">ACCOUNT ANLEGEN</string>
+    <string name="hier_gehts_weiter_zur_anmeldung">Hier gehts weiter zur Anmeldung</string>
+    <string name="android_table_layout_example">Android Table Layout Example</string>
+    <string name="viralandroid_com">ViralAndroid.com</string>
+    <string name="row_1">Row 1</string>
+    <string name="row_2_ncolumn_1">Row 2\nColumn 1</string>
+    <string name="row_2_ncolumn_2">Row 2\nColumn 2</string>
+    <string name="row_2_ncolumn_3">Row 2\nColumn 3</string>
+    <string name="row_3_ncolumn_1">Row 3\nColumn 1</string>
+    <string name="row_3_ncolumn_2">Row 3\nColumn 2</string>
+    <string name="row_4_ncolumn_1">Row 4\nColumn 1</string>
+    <string name="row_4_ncolumn_2">Row 4\nColumn 2</string>
+    <string name="row_5_ncolumn_1">Row 5\nColumn 1</string>
+    <string name="anmeldung_mit_sicherheitspin">Anmeldung mit Sicherheitspin</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_0">0</string>
+    <string name="del">DEL</string>
+</resources>
