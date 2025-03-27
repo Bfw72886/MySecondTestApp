@@ -243,6 +243,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_margin="40dp"
         android:backgroundTint="@color/slk2_red"
+        app:tint="@color/slk2_orange"
         android:src="@drawable/baseline_local_fire_department_24"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
